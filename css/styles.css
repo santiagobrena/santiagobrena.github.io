@@ -33,7 +33,7 @@ body {
     transition: width 0.3s ease;
 }
 .sidebar-content {
-    margin-top: 60px;
+    
 }
 .sidebar h1, .mobile-title {
     font-size: 2.5rem;
@@ -139,6 +139,12 @@ section {
     font-size: 35px;
     margin-right: 8px;
 }
+.yii {
+    height: 35px;
+    width: auto;
+    margin-bottom: 20px;
+    margin-right: 8px;
+}
 footer {
     background-color: #112240;
     color: #ccd6f6;
@@ -165,6 +171,26 @@ footer {
         margin-left: 0;
         width: 100%;
     }
+}
+.divider {
+    margin: 0 8px;
+    color: gray;
+    font-weight: bold;
+    font-size: 20px;
+}
+.skill {
+    padding: 5px;
+    margin: 2px 1px ;
+    font-size: 12px;
+    background-color:#64ffda;
+    border-radius: 15px;
+    min-width: 70px;
+    text-align: center;
+    color: #0b192f;
+}
+.skills-container {
+    justify-content: space-between;
+    margin-bottom: 10px;
 }
 
 
